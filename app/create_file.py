@@ -3,8 +3,8 @@ import os
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', nargs='+', help='directory parts')
-parser.add_argument('-f', help='file name')
+parser.add_argument("-d", nargs="+", help="directory parts")
+parser.add_argument("-f", help="file name")
 args = parser.parse_args()
 
 
