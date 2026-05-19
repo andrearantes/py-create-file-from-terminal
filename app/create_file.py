@@ -1,6 +1,6 @@
 import sys
 import os
-from datetime import datetime
+import datetime
 
 
 def get_directory_path(arguments: list) -> str:
